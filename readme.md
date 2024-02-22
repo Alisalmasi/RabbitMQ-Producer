@@ -6,7 +6,9 @@ Reddit xml rss consumer 🚀
 
 ### Make sure you have Go installed on your system.
 ### Clone this repository
-```git clone https://github.com/Alisalmasi/RabbitMQ-Producer.git```
+```
+git clone https://github.com/Alisalmasi/RabbitMQ-Producer.git
+```
 ### Navigate to the project directory `RabbitMQ-Producer`
 ### Run the project
 ```
@@ -17,13 +19,17 @@ Reddit xml rss consumer 🚀
 
 ### When you make a POST request to the  endpoint ```localhost:5000/parse``` a message is send to rabbitMQ  broker and the response will be sent to consumer.
 ### Consumer Repo
-```https://github.com/Alisalmasi/RabbitMQ-Consumer.git```
+```
+https://github.com/Alisalmasi/RabbitMQ-Consumer.git
+```
 
 ## Usage
 
 1. Run the project.
 2. Send a post request with application/json eg
-```{ "url":"https://www.reddit.com/r/recipes/.rss" }```
+```
+{ "url":"https://www.reddit.com/r/recipes/.rss" }
+```
 the response of the rss will be sent to rabbitMQ and the consumer will save the response in to mongodb
 
 ## Environment Variables
