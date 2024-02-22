@@ -9,7 +9,9 @@ Reddit xml rss consumer 🚀
 ```git clone https://github.com/Alisalmasi/RabbitMQ-Producer.git```
 ### Navigate to the project directory `RabbitMQ-Producer`
 ### Run the project
- ```go run main.go```
+```
+ go run main.go
+```
 
 ## Features
 
